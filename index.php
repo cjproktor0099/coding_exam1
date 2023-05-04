@@ -13,7 +13,12 @@
 
     <h3>PROBLEM SET 2</h3>
     <strong>Return names sorted in descending order by the people's heights.</strong> <br>
-
+    <ul>
+        <li>Mary height is 180</li>
+        <li>Emma height is 165</li>
+        <li>John height is 170</li>
+    </ul>
+    <?php include 'orderByHeight.php'; ?>
 
     <script src="script.js"></script>
     </body>

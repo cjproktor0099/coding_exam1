@@ -11,22 +11,11 @@
     <strong>Given a roman numeral, convert it to an integer.</strong> <br>
 	<input type="text" id="romanNumeral" placeholder="Input Roman Numeral">	= <span id="result"></span>
 
+    <h3>PROBLEM SET 2</h3>
+    <strong>Return names sorted in descending order by the people's heights.</strong> <br>
 
-	<script>
-		$(document).ready(function(){
-			$("#romanNumeral").on('input', function(){
-				var romanNumeral = $(this).val();
-				$.ajax({
-					type: "POST",
-					url: "romanNumeralConverter.php",
-					data: {"romanNumeral": romanNumeral},
-					success: function(response){
-						$("#result").html(response);
-					}
-				});
-			});
-		});
-	</script>
+
+    <script src="script.js"></script>
     </body>
 </html>
 

@@ -22,5 +22,6 @@
 
     <script src="script.js"></script>
     </body>
+    <i class="fa fa-copyright" aria-hidden="true">Chrisjelo B. Vega</i>
 </html>
 
